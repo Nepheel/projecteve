@@ -2,6 +2,8 @@ package net.nepheel.projecteve;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nepheel.projecteve.util.ModRegistries;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +13,7 @@ public class ProjectEveMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Very important Comment!
-		LOGGER.info("Hello Fabric world!");
+		ModRegistries.registerModStuffs();
+
 	}
 }
