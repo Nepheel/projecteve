@@ -24,7 +24,7 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> EVE_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
             new Identifier(ProjectEveMod.MOD_ID, "evedim_type"));
     public static final RegistryKey<DensityFunction> EVEDIM_KEY2 = RegistryKey.of(RegistryKeys.DENSITY_FUNCTION,
-            new Identifier(ProjectEveMod.MOD_ID, "evedim_type"));
+            new Identifier(ProjectEveMod.MOD_ID, "evedim"));
 
     public static void bootstrapType(Registerable<DimensionType> context) {
         context.register(EVE_DIM_TYPE, new DimensionType(
