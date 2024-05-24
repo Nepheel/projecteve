@@ -7,6 +7,6 @@
     "from_value": 1,
     "to_value": -2
   },
-  "argument2": "minecraft:overworld/offset"
+  "argument2": "projecteve:evedim/offset"
 }
 
