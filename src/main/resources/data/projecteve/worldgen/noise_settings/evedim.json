@@ -111,7 +111,7 @@
                           "argument1": "projecteve:evedim/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "minecraft:overworld/factor"
+                            "argument": "projecteve:evedim/factor"
                           }
                         }
                       }
