@@ -1,5 +1,6 @@
 package net.nepheel.projecteve.world.dimension;
 
+import net.minecraft.world.gen.densityfunction.DensityFunctions;
 import net.nepheel.projecteve.ProjectEveMod;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
