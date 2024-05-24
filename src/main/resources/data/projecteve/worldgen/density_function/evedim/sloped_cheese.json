@@ -12,7 +12,7 @@
           "argument1": "projecteve:evedim/depth",
           "argument2": {
             "type": "minecraft:mul",
-            "argument1": "projecteve:evedim/jaggedness",
+            "argument1": "minecraft:overworld/jaggedness",
             "argument2": {
               "type": "minecraft:half_negative",
               "argument": {
@@ -24,7 +24,7 @@
             }
           }
         },
-        "argument2": "projecteve:evedim/factor"
+        "argument2": "minecraft:overworld/factor"
       }
     }
   },
