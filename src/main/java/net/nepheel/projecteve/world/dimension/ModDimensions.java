@@ -1,5 +1,6 @@
 package net.nepheel.projecteve.world.dimension;
 
+import net.minecraft.world.gen.chunk.ChunkGeneratorSettings;
 import net.minecraft.world.gen.densityfunction.DensityFunction;
 import net.minecraft.world.gen.densityfunction.DensityFunctions;
 import net.nepheel.projecteve.ProjectEveMod;
@@ -24,6 +25,8 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> EVE_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
             new Identifier(ProjectEveMod.MOD_ID, "evedim_type"));
     public static final RegistryKey<DensityFunction> EVEDIM_KEY2 = RegistryKey.of(RegistryKeys.DENSITY_FUNCTION,
+            new Identifier(ProjectEveMod.MOD_ID, "evedim"));
+    public static final RegistryKey<ChunkGeneratorSettings> EVEDIM_KEY3 = RegistryKey.of(RegistryKeys.CHUNK_GENERATOR_SETTINGS,
             new Identifier(ProjectEveMod.MOD_ID, "evedim"));
 
     public static void bootstrapType(Registerable<DimensionType> context) {
