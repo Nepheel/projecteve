@@ -64,7 +64,7 @@
     },
     "continents": "minecraft:overworld/continents",
     "erosion": "minecraft:overworld/erosion",
-    "depth": "minecraft:overworld/depth",
+    "depth": "projecteve:evedim/depth",
     "ridges": "minecraft:overworld/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:add",
@@ -108,7 +108,7 @@
                         "type": "minecraft:quarter_negative",
                         "argument": {
                           "type": "minecraft:mul",
-                          "argument1": "minecraft:overworld/depth",
+                          "argument1": "projecteve:evedim/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
                             "argument": "minecraft:overworld/factor"
