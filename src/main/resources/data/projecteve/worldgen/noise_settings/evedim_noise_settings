@@ -108,10 +108,10 @@
                         "type": "minecraft:quarter_negative",
                         "argument": {
                           "type": "minecraft:mul",
-                          "argument1": "projecteve:evedim/depth",
+                          "argument1": "minecraft:overworld/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "projecteve:evedim/factor"
+                            "argument": "minecraft:overworld/factor"
                           }
                         }
                       }
@@ -169,12 +169,12 @@
                           "argument1": 0.078125,
                           "argument2": {
                             "type": "minecraft:range_choice",
-                            "input": "projecteve:evedim/sloped_cheese",
+                            "input": "minecraft:overworld/sloped_cheese",
                             "min_inclusive": -1000000,
                             "max_exclusive": 1.5625,
                             "when_in_range": {
                               "type": "minecraft:min",
-                              "argument1": "projecteve:evedim/sloped_cheese",
+                              "argument1": "minecraft:overworld/sloped_cheese",
                               "argument2": {
                                 "type": "minecraft:mul",
                                 "argument1": 5,
@@ -227,7 +227,7 @@
                                           "argument2": {
                                             "type": "minecraft:mul",
                                             "argument1": -0.64,
-                                            "argument2": "projecteve:evedim/sloped_cheese"
+                                            "argument2": "minecraft:overworld/sloped_cheese"
                                           }
                                         },
                                         "min": 0,
