@@ -21,4 +21,5 @@ public class ModRegistries {
                 .tintColor(0xc76efa)
                 .registerPortal();
     }
+
 }

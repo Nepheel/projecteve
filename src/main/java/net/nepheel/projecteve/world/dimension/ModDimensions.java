@@ -36,7 +36,7 @@ public class ModDimensions {
                 384, // height
                 384, // logicalHeight
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
-                DimensionTypes.OVERWORLD_ID, // effectsLocation
+                ProjectEveMod.EVEDIM_EFFECTS_ID, // effectsLocation
                 1.0f, // ambientLight
                 new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)));
     }

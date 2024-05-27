@@ -7,5 +7,6 @@
       "type": "minecraft:fixed",
       "biome": "minecraft:deep_ocean"
     }
-  }
+  },
+  "effects": "projecteve:evedim_effects"
 }
