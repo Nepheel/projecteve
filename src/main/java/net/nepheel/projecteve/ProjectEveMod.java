@@ -1,7 +1,7 @@
 package net.nepheel.projecteve;
 
 import net.fabricmc.api.ModInitializer;
-import net.nepheel.projecteve.mixin.DimensionEffectsAccessorMixin;
+import net.fabricmc.fabric.api.client.rendering.v1.DimensionRenderingRegistry;
 import net.nepheel.projecteve.util.ModRegistries;
 import net.minecraft.util.Identifier;
 
@@ -16,7 +16,7 @@ public class ProjectEveMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModRegistries.registerModStuffs();
-		DimensionEffectsAccessorMixin.register(EVEDIM_EFFECTS_ID, new net.nepheel.projecteve.effects.EvedimEffects());
+		DimensionRenderingRegistry.registerDimensionEffects(EVEDIM_EFFECTS_ID, new net.nepheel.projecteve.effects.EvedimEffects());
 
 	}
 }
