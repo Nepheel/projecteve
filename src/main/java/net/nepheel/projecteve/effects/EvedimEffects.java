@@ -5,7 +5,7 @@ import net.minecraft.util.math.Vec3d;
 
 public class EvedimEffects extends DimensionEffects {
     public EvedimEffects() {
-        super(128, false, SkyType.NORMAL, false, false);
+        super(448.0f, false, SkyType.NORMAL, false, false);
     }
 
     @Override

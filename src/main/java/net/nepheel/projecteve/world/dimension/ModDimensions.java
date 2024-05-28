@@ -22,22 +22,5 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> EVE_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
             new Identifier(ProjectEveMod.MOD_ID, "evedim_type"));
 
-    public static void bootstrapType(Registerable<DimensionType> context) {
-        context.register(EVE_DIM_TYPE, new DimensionType(
-                OptionalLong.of(12000), // fixedTime
-                true, // hasSkylight
-                false, // hasCeiling
-                false, // ultraWarm
-                true, // natural
-                1.0, // coordinateScale
-                true, // bedWorks
-                true, // respawnAnchorWorks
-                -64, // minY
-                384, // height
-                384, // logicalHeight
-                BlockTags.INFINIBURN_OVERWORLD, // infiniburn
-                ProjectEveMod.EVEDIM_EFFECTS_ID, // effectsLocation
-                1.0f, // ambientLight
-                new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)));
     }
-}
+
