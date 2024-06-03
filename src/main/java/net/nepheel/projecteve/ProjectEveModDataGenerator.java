@@ -3,7 +3,7 @@ package net.nepheel.projecteve;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.nepheel.projecteve.datagen.*;
-import net.nepheel.projecteve.world.dimension.ModDimensions;
+import net.nepheel.projecteve.world.biome.ModBiomes;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
@@ -15,4 +15,8 @@ public class ProjectEveModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModWorldGenerator::new);
 	}
 
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
+	}
 }

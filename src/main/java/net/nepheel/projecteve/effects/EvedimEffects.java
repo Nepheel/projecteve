@@ -10,11 +10,14 @@ public class EvedimEffects extends DimensionEffects {
 
     @Override
     public Vec3d adjustFogColor(Vec3d color, float sunHeight) {
+        //Farbe des Himmels anpassen, return color
         return color;
     }
 
     @Override
     public boolean useThickFog(int camX, int camY) {
+        //Bestimmt, ob dichter Nebel verwendet wird
         return false;
     }
 }
+
