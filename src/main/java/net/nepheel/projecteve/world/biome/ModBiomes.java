@@ -1,13 +1,11 @@
 package net.nepheel.projecteve.world.biome;
 
-import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 import net.nepheel.projecteve.ProjectEveMod;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.BiomeMoodSound;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.biome.Biome;
@@ -16,7 +14,7 @@ import net.minecraft.world.biome.GenerationSettings;
 import net.minecraft.world.biome.SpawnSettings;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
-
+import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 
 public class ModBiomes {
     public static final RegistryKey<Biome> TEST_BIOME = register("testbiome");
