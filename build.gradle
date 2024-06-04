@@ -22,6 +22,14 @@ repositories {
 
 loom {
 	runs {
+		datagen {
+			inherit client
+		}
+	}
+}
+
+loom {
+	runs {
 		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
 		datagen {
 			inherit server
